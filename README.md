@@ -4,16 +4,19 @@
 
 ## Table of Contents
 
-1. [Features](#features)
-2. [Background](#background)
-3. [Technologies Used](#technologies-used)
-4. [Getting Started](#getting-started)
+- [fomc-sentiment-analyzer](#fomc-sentiment-analyzer)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Background](#background)
+  - [Technologies Used](#technologies-used)
+  - [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
-5. [Development Guide](#development-guide)
-6. [Contributing](#contributing)
-7. [License](#license)
-8. [Acknowledgments](#acknowledgments)
+  - [Alternatives to SF](#alternatives-to-sf)
+  - [Development Guide](#development-guide)
+  - [Contributing](#contributing)
+  - [License](#license)
+  - [Acknowledgments](#acknowledgments)
 
 ---
 
