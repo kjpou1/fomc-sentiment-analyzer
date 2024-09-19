@@ -88,6 +88,11 @@ Sentiment analysis is crucial in finance for interpreting market sentiment, asse
    nltk.download('punkt')
    ```
 
+## Alternatives to SF
+
+For a list of alternative approaches to the selected Sentiment Focus (SF) method as it applies to clause-level sentiment analysis, please refer to the [Alternative Approaches to the Sentiment Focus (SF) Method in Sentiment Analysis](ALTERNATIVES.md).
+
+
 ## Development Guide
 
 For detailed instructions on setting up the development environment, acquiring data, and implementing the system, please refer to the [Development Guide](DEVELOPMENT.md).
