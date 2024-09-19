@@ -2,6 +2,21 @@
 
 **fomc-sentiment-analyzer** is a Python-based tool designed for clause-level sentiment analysis of Federal Open Market Committee (FOMC) minutes and other financial texts. By leveraging the Sentiment Focus (SF) method and FinBERT, a financial domain-specific language model, this project aims to provide nuanced insights into the sentiments expressed within complex financial documents.
 
+## Table of Contents
+
+1. [Features](#features)
+2. [Background](#background)
+3. [Technologies Used](#technologies-used)
+4. [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+5. [Development Guide](#development-guide)
+6. [Contributing](#contributing)
+7. [License](#license)
+8. [Acknowledgments](#acknowledgments)
+
+---
+
 ## Features
 
 - **Clause Segmentation**: Breaks down complex sentences into individual clauses for granular analysis.
@@ -23,6 +38,59 @@ Sentiment analysis is crucial in finance for interpreting market sentiment, asse
 - **PyTorch**: As the backend framework for running FinBERT.
 - **scikit-learn**: For model evaluation metrics.
 - **Matplotlib/Seaborn**: (Optional) For data visualization.
+
+## Getting Started
+
+### Prerequisites
+
+- **Python**: Version 3.8 or higher
+- **Virtual Environment**: Recommended to prevent dependency conflicts
+
+### Installation
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/yourusername/fomc-sentiment-analyzer.git
+   cd fomc-sentiment-analyzer
+   ```
+
+2. **Create and Activate a Virtual Environment**
+
+   ```bash
+   # Create virtual environment
+   python -m venv .venv
+
+   # Activate the virtual environment
+   # On Windows:
+   .venv\Scripts\activate
+
+   # On macOS/Linux:
+   source .venv/bin/activate
+   ```
+
+3. **Install Required Libraries**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Download spaCy Model**
+
+   ```bash
+   python -m spacy download en_core_web_sm
+   ```
+
+5. **Download NLTK Data**
+
+   ```python
+   import nltk
+   nltk.download('punkt')
+   ```
+
+## Development Guide
+
+For detailed instructions on setting up the development environment, acquiring data, and implementing the system, please refer to the [Development Guide](DEVELOPMENT.md).
 
 ## Contributing
 
